@@ -3,8 +3,8 @@ var card = React.createElement('div',{style : {
     width : "35%",
     height : "70%",
     padding : "20px",
-    marginLeft : "25%",
-    marginTop : "5%",
+    marginLeft : "30%",
+    marginTop : "2%",
     display : "flex",
     justifyContent : "center",
     flexDirection : "column",
@@ -15,9 +15,9 @@ var card = React.createElement('div',{style : {
 }},
 React.createElement('div',{style : {
     // border : "2px solid red",
-    marginTop : "10%",
-    width : "100px",
-    height : "100px",
+    // marginTop : "5%",
+    width : "200px",
+    height : "200px",
     borderRadius : "50%",
     display : "flex",
     flexDirection : "column",
@@ -28,7 +28,7 @@ React.createElement('div',{style : {
 
 }},[
     React.createElement("img",{
-        src :"./profile.jpg",alt:"Avatar",width : "100px",height : "100px"},null),
+        src :"./profile.jpg",alt:"Avatar",width : "100%",height : "100%"},null),
 
 ]),
 React.createElement('div',{style : {
@@ -42,7 +42,7 @@ React.createElement('div',{style : {
 
 
 }},[
-    React.createElement('h1',{style : {margin : "0px",padding : "0px"}},"Rushikesh Patil"),
+    React.createElement('h1',{style : {margin : "0px",padding : "0px",opacity:'.7'}},"Rushikesh Patil"),
     React.createElement('p',{style :{fontFamily:"Poppins"}},"I enjoy drinking a cup of coffee every day"),  
 ]),
 React.createElement('div',{style : {
@@ -59,9 +59,9 @@ React.createElement('div',{style : {
     padding : "0px"
 
 }},[
-    React.createElement('p',{style : {margin : "0",padding : "0"}},"150"),
-    React.createElement('p',{style : {margin : "0",padding : "0"}},"100"),
-    React.createElement('p',{style : {margin : "0",padding : "0"}},"150k"),
+    React.createElement('p',{style : {margin : "0",padding : "0",alignItems:'center',fontSize:'1.7rem'}},"150"),
+    React.createElement('p',{style : {margin : "0",paddingRight : "15px",fontSize:'1.7rem'}},"100"),
+    React.createElement('p',{style : {margin : "0",paddingRight : "15px",alignItems:'center',fontSize:'1.6rem'}},"150k"),
 
 ]),
 React.createElement('div',{style : {
@@ -80,9 +80,9 @@ React.createElement('div',{style : {
     // padding : "0px"
     
 }},[
-    React.createElement('p',{style : {margin : "0",padding : "0"}},"Posts"),
-    React.createElement('p',{style : {margin : "0",padding : "0"}},"Followings"),
-    React.createElement('p',{style : {margin : "0",padding : "0"}},"Followers"),
+    React.createElement('p',{style : {margin : "0",padding : "0",fontSize:'1.2rem',fontWeight:'550',opacity:'0.6'}},"Posts"),
+    React.createElement('p',{style : {margin : "0",padding : "0",fontSize:'1.2rem',fontWeight:'550',opacity:'0.6'}},"Followings"),
+    React.createElement('p',{style : {margin : "0",padding : "0",fontSize:'1.2rem',fontWeight:'550',opacity:'0.6'}},"Followers"),
 
 ]),
 React.createElement('div',{style : {
